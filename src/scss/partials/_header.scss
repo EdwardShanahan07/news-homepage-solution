@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .nav {
+    display: none;
+  }
+
+  & .menu {
+    & img {
+      cursor: pointer;
+    }
+
+    &__open {
+    }
+
+    &__close {
+      display: none;
+    }
+  }
+}
