@@ -347,7 +347,7 @@ template {
 /* line 7, src/scss/partials/_global.scss */
 body {
   font-family: "Inter", sans-serif;
-  max-width: 343px;
+  width: 90%;
   margin: 0 auto; }
 
 /* line 13, src/scss/partials/_global.scss */
