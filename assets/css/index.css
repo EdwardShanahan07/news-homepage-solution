@@ -33,61 +33,61 @@ header {
   header .menu__close {
     display: none; }
 
-/* line 2, src/scss/partials/_main.scss */
+/* line 1, src/scss/partials/_main.scss */
+.main__new {
+  background-color: #00001a;
+  margin-bottom: 4rem;
+  padding: 1.5rem 1.25rem; }
+  /* line 6, src/scss/partials/_main.scss */
+  .main__new h2 {
+    color: #e9ab53;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.1875rem; }
+  /* line 13, src/scss/partials/_main.scss */
+  .main__new-group {
+    padding-bottom: 1.8125rem; }
+    /* line 15, src/scss/partials/_main.scss */
+    .main__new-group:not(:last-child) {
+      border-bottom: 1px solid #5e607a;
+      margin-bottom: 2rem; }
+    /* line 20, src/scss/partials/_main.scss */
+    .main__new-group h3 {
+      color: #fffdfa;
+      font-size: 1.25rem;
+      font-weight: 800; }
+    /* line 26, src/scss/partials/_main.scss */
+    .main__new-group p {
+      color: #c5c6ce;
+      font-size: 0.9375rem;
+      line-height: 1.625rem; }
+
+/* line 34, src/scss/partials/_main.scss */
 .main__popular {
   margin-bottom: 4rem; }
-  /* line 5, src/scss/partials/_main.scss */
+  /* line 37, src/scss/partials/_main.scss */
   .main__popular img {
     margin-bottom: 1.5rem; }
-  /* line 9, src/scss/partials/_main.scss */
+  /* line 41, src/scss/partials/_main.scss */
   .main__popular h1 {
     color: #00001a;
     font-size: 2.5rem;
     font-weight: 800;
     line-height: 2.5rem;
     margin-bottom: 1rem; }
-  /* line 17, src/scss/partials/_main.scss */
+  /* line 49, src/scss/partials/_main.scss */
   .main__popular p {
     color: #5d5f79;
     font-size: 0.9375rem;
     line-height: 1.625rem;
     margin-bottom: 1.5rem; }
-  /* line 24, src/scss/partials/_main.scss */
+  /* line 56, src/scss/partials/_main.scss */
   .main__popular .btn {
     color: #fffdfa;
     background-color: #f15e50;
     text-decoration: none;
     padding: 0.8125rem 2.1875rem;
     display: inline-block; }
-    /* line 31, src/scss/partials/_main.scss */
+    /* line 63, src/scss/partials/_main.scss */
     .main__popular .btn:hover {
       background-color: #00001a; }
-
-/* line 37, src/scss/partials/_main.scss */
-.main__new {
-  background-color: #00001a;
-  margin-bottom: 4rem;
-  padding: 1.5rem 1.25rem; }
-  /* line 42, src/scss/partials/_main.scss */
-  .main__new h2 {
-    color: #e9ab53;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2.1875rem; }
-  /* line 49, src/scss/partials/_main.scss */
-  .main__new-group {
-    padding-bottom: 1.8125rem; }
-    /* line 51, src/scss/partials/_main.scss */
-    .main__new-group:not(:last-child) {
-      border-bottom: 1px solid #5e607a;
-      margin-bottom: 2rem; }
-    /* line 56, src/scss/partials/_main.scss */
-    .main__new-group h3 {
-      color: #fffdfa;
-      font-size: 1.25rem;
-      font-weight: 800; }
-    /* line 62, src/scss/partials/_main.scss */
-    .main__new-group p {
-      color: #c5c6ce;
-      font-size: 0.9375rem;
-      line-height: 1.625rem; }
