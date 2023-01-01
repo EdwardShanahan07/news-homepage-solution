@@ -8,6 +8,10 @@ body {
   font-family: $Font-Family;
   width: 90%;
   margin: 0 auto;
+
+  @include responsiveBPDesktop {
+    width: 80%;
+  }
 }
 
 img {
