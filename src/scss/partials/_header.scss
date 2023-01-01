@@ -2,14 +2,46 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1.75rem;
+  padding-top: 5.625rem;
   margin-bottom: 2rem;
+
+  @include responsiveBPDesktop {
+    margin-bottom: 3.4375rem;
+  }
 
   & .nav {
     display: none;
+
+    @include responsiveBPDesktop {
+      display: block;
+    }
+
+    & ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+    }
+
+    & li {
+      margin-left: 2.5rem;
+    }
+
+    & a {
+      color: $Color-Dark-Grayish-Blue;
+      font-size: 0.9375rem;
+      text-decoration: none;
+
+      &:hover {
+        color: $Color-Soft-Red;
+      }
+    }
   }
 
   & .menu {
+    @include responsiveBPDesktop {
+      display: none;
+    }
+
     & img {
       cursor: pointer;
     }
