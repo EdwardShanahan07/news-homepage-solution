@@ -88,13 +88,18 @@
     font-weight: 800;
     line-height: 2.5rem;
     margin-bottom: 1rem;
+
+    @include responsiveBPDesktop {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    }
   }
 
   & p {
     color: $Color-Dark-Grayish-Blue;
     font-size: 0.9375rem;
     line-height: 1.625rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8125rem;
   }
 
   & .btn {
