@@ -206,12 +206,16 @@ header {
 /* line 156, src/scss/partials/_main.scss */
 .main__trending a {
   color: #00001a;
+  font-size: 1.125rem;
   font-weight: 800;
   text-decoration: none;
   display: block;
   margin-bottom: 0.625rem; }
+  /* line 164, src/scss/partials/_main.scss */
+  .main__trending a:hover {
+    color: #f15e50; }
 
-/* line 164, src/scss/partials/_main.scss */
+/* line 169, src/scss/partials/_main.scss */
 .main__trending p {
   color: #5d5f79;
   line-height: 26px; }
