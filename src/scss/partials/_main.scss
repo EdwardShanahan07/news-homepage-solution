@@ -56,6 +56,20 @@
     margin-bottom: 1.5rem;
   }
 
+  &-img--mobile {
+    @include responsiveBPDesktop {
+      display: none;
+    }
+  }
+
+  &-img--desktop {
+    display: none;
+
+    @include responsiveBPDesktop {
+      display: block;
+    }
+  }
+
   &-text {
     @include responsiveBPDesktop {
       display: flex;
