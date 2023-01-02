@@ -145,54 +145,59 @@ header {
     font-weight: 800;
     line-height: 2.5rem;
     margin-bottom: 1rem; }
-  /* line 93, src/scss/partials/_main.scss */
+    @media (min-width: 1000px) {
+      /* line 85, src/scss/partials/_main.scss */
+      .main__popular h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem; } }
+  /* line 98, src/scss/partials/_main.scss */
   .main__popular p {
     color: #5d5f79;
     font-size: 0.9375rem;
     line-height: 1.625rem;
-    margin-bottom: 1.5rem; }
-  /* line 100, src/scss/partials/_main.scss */
+    margin-bottom: 1.8125rem; }
+  /* line 105, src/scss/partials/_main.scss */
   .main__popular .btn {
     color: #fffdfa;
     background-color: #f15e50;
     text-decoration: none;
     padding: 0.8125rem 2.1875rem;
     display: inline-block; }
-    /* line 107, src/scss/partials/_main.scss */
+    /* line 112, src/scss/partials/_main.scss */
     .main__popular .btn:hover {
       background-color: #00001a; }
 
 @media (min-width: 1000px) {
-  /* line 113, src/scss/partials/_main.scss */
+  /* line 118, src/scss/partials/_main.scss */
   .main__trending {
     display: flex;
     justify-content: space-between;
     grid-column: 1 / -1; } }
 
-/* line 120, src/scss/partials/_main.scss */
+/* line 125, src/scss/partials/_main.scss */
 .main__trending-group {
   display: grid;
   grid-template-columns: 120px 1fr;
   gap: 1.5rem; }
   @media (min-width: 1000px) {
-    /* line 120, src/scss/partials/_main.scss */
+    /* line 125, src/scss/partials/_main.scss */
     .main__trending-group {
       flex-basis: 30%; } }
-  /* line 129, src/scss/partials/_main.scss */
+  /* line 134, src/scss/partials/_main.scss */
   .main__trending-group:not(:last-child) {
     margin-bottom: 2rem; }
     @media (min-width: 1000px) {
-      /* line 129, src/scss/partials/_main.scss */
+      /* line 134, src/scss/partials/_main.scss */
       .main__trending-group:not(:last-child) {
         margin-bottom: 0rem; } }
 
-/* line 138, src/scss/partials/_main.scss */
+/* line 143, src/scss/partials/_main.scss */
 .main__trending h2 {
   color: #c5c6ce;
   font-size: 2rem;
   margin-bottom: 0.75rem; }
 
-/* line 144, src/scss/partials/_main.scss */
+/* line 149, src/scss/partials/_main.scss */
 .main__trending a {
   color: #00001a;
   font-weight: 800;
@@ -200,7 +205,7 @@ header {
   display: block;
   margin-bottom: 0.625rem; }
 
-/* line 152, src/scss/partials/_main.scss */
+/* line 157, src/scss/partials/_main.scss */
 .main__trending p {
   color: #5d5f79;
   line-height: 26px; }
