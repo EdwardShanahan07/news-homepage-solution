@@ -2,10 +2,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 5.625rem;
+  margin-top: 1.75rem;
   margin-bottom: 2rem;
 
   @include responsiveBPDesktop {
+    margin-top: 5.625rem;
     margin-bottom: 3.4375rem;
   }
 

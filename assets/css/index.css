@@ -25,43 +25,44 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 5.625rem;
+  margin-top: 1.75rem;
   margin-bottom: 2rem; }
   @media (min-width: 1000px) {
     /* line 1, src/scss/partials/_header.scss */
     header {
+      margin-top: 5.625rem;
       margin-bottom: 3.4375rem; } }
-  /* line 12, src/scss/partials/_header.scss */
+  /* line 13, src/scss/partials/_header.scss */
   header .nav {
     display: none; }
     @media (min-width: 1000px) {
-      /* line 12, src/scss/partials/_header.scss */
+      /* line 13, src/scss/partials/_header.scss */
       header .nav {
         display: block; } }
-    /* line 19, src/scss/partials/_header.scss */
+    /* line 20, src/scss/partials/_header.scss */
     header .nav ul {
       display: flex;
       align-items: center;
       list-style: none; }
-    /* line 25, src/scss/partials/_header.scss */
+    /* line 26, src/scss/partials/_header.scss */
     header .nav li {
       margin-left: 2.5rem; }
-    /* line 29, src/scss/partials/_header.scss */
+    /* line 30, src/scss/partials/_header.scss */
     header .nav a {
       color: #5d5f79;
       font-size: 0.9375rem;
       text-decoration: none; }
-      /* line 34, src/scss/partials/_header.scss */
+      /* line 35, src/scss/partials/_header.scss */
       header .nav a:hover {
         color: #f15e50; }
   @media (min-width: 1000px) {
-    /* line 40, src/scss/partials/_header.scss */
+    /* line 41, src/scss/partials/_header.scss */
     header .menu {
       display: none; } }
-  /* line 45, src/scss/partials/_header.scss */
+  /* line 46, src/scss/partials/_header.scss */
   header .menu img {
     cursor: pointer; }
-  /* line 52, src/scss/partials/_header.scss */
+  /* line 53, src/scss/partials/_header.scss */
   header .menu__close {
     display: none; }
 
