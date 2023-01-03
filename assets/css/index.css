@@ -66,6 +66,20 @@ header {
   header .menu__close {
     display: none; }
 
+/* line 61, src/scss/partials/_header.scss */
+header.active .menu img {
+  cursor: pointer; }
+
+/* line 65, src/scss/partials/_header.scss */
+header.active .menu__close {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  display: block;
+  z-index: 2;
+  right: 20px;
+  top: 30px; }
+
 /* line 1, src/scss/partials/_main.scss */
 .main {
   margin-bottom: 5rem; }

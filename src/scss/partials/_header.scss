@@ -55,3 +55,21 @@ header {
     }
   }
 }
+
+header.active {
+  & .menu {
+    & img {
+      cursor: pointer;
+    }
+
+    &__close {
+      width: 30px;
+      height: 30px;
+      position: fixed;
+      display: block;
+      z-index: 2;
+      right: 20px;
+      top: 30px;
+    }
+  }
+}
