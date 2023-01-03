@@ -66,19 +66,30 @@ header {
   header .menu__close {
     display: none; }
 
-/* line 61, src/scss/partials/_header.scss */
-header.active .menu img {
-  cursor: pointer; }
-
-/* line 65, src/scss/partials/_header.scss */
-header.active .menu__close {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  display: block;
-  z-index: 2;
-  right: 20px;
-  top: 30px; }
+/* line 59, src/scss/partials/_header.scss */
+header.active {
+  position: relative; }
+  /* line 62, src/scss/partials/_header.scss */
+  header.active nav {
+    background-color: rgba(0, 0, 26, 0.5);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  /* line 73, src/scss/partials/_header.scss */
+  header.active .menu img {
+    cursor: pointer; }
+  /* line 77, src/scss/partials/_header.scss */
+  header.active .menu__close {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    display: block;
+    z-index: 2;
+    right: 20px;
+    top: 30px; }
 
 /* line 1, src/scss/partials/_main.scss */
 .main {
