@@ -54,19 +54,17 @@ header {
       display: none;
     }
   }
+
+  & .overlay {
+    display: none;
+  }
 }
 
 header.active {
   position: relative;
 
   & nav {
-    background-color: rgba($Color-Dark-Blue, 0.5);
     display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 
   & .menu {
@@ -83,5 +81,15 @@ header.active {
       right: 20px;
       top: 30px;
     }
+  }
+
+  & .overlay {
+    background-color: rgba($Color-Dark-Blue, 0.5);
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
   }
 }
