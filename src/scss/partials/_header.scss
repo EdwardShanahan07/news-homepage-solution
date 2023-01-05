@@ -65,6 +65,26 @@ header.active {
 
   & nav {
     display: block;
+    background-color: $Color-White;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+
+    & ul {
+      flex-direction: column;
+      margin-top: 9rem;
+
+      & li {
+        margin-bottom: 24px;
+
+        & a {
+          font-size: 1.125rem;
+        }
+      }
+    }
   }
 
   & .menu {

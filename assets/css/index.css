@@ -74,11 +74,28 @@ header.active {
   position: relative; }
   /* line 66, src/scss/partials/_header.scss */
   header.active nav {
-    display: block; }
-  /* line 71, src/scss/partials/_header.scss */
+    display: block;
+    background-color: #fffdfa;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%; }
+    /* line 76, src/scss/partials/_header.scss */
+    header.active nav ul {
+      flex-direction: column;
+      margin-top: 9rem; }
+      /* line 80, src/scss/partials/_header.scss */
+      header.active nav ul li {
+        margin-bottom: 24px; }
+        /* line 83, src/scss/partials/_header.scss */
+        header.active nav ul li a {
+          font-size: 1.125rem; }
+  /* line 91, src/scss/partials/_header.scss */
   header.active .menu img {
     cursor: pointer; }
-  /* line 75, src/scss/partials/_header.scss */
+  /* line 95, src/scss/partials/_header.scss */
   header.active .menu__close {
     width: 30px;
     height: 30px;
@@ -87,7 +104,7 @@ header.active {
     z-index: 2;
     right: 20px;
     top: 30px; }
-  /* line 86, src/scss/partials/_header.scss */
+  /* line 106, src/scss/partials/_header.scss */
   header.active .overlay {
     background-color: rgba(0, 0, 26, 0.5);
     display: block;
